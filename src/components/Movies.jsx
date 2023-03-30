@@ -4,25 +4,25 @@ import styled from "styled-components";
 function Movies() {
   return (
     <Container>
-      <h4>Recommended for You</h4>
+      <h4>Movies Recommended for You</h4>
       <Content>
         <Wrap>
-          <img src="https://lh3.googleusercontent.com/BKZ9j1cgzXqbCCYPcRjw2eHEw2t5291lxXxXB6wE7BBD18Tgv8Vhzc5Y8hl609GfZ7VShv6uAWCndxiFO7gLR1B8BLp7vnzZV4Ji3KCr" />
+          <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_256/sources/r1/cms/prod/6666/1126666-v-daedd2133f90" />
         </Wrap>
         <Wrap>
-          <img src="https://lh3.googleusercontent.com/BKZ9j1cgzXqbCCYPcRjw2eHEw2t5291lxXxXB6wE7BBD18Tgv8Vhzc5Y8hl609GfZ7VShv6uAWCndxiFO7gLR1B8BLp7vnzZV4Ji3KCr" />
+          <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_256/sources/r1/cms/prod/6666/1126666-v-daedd2133f90" />
         </Wrap>
         <Wrap>
-          <img src="https://lh3.googleusercontent.com/BKZ9j1cgzXqbCCYPcRjw2eHEw2t5291lxXxXB6wE7BBD18Tgv8Vhzc5Y8hl609GfZ7VShv6uAWCndxiFO7gLR1B8BLp7vnzZV4Ji3KCr" />
+          <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_256/sources/r1/cms/prod/6666/1126666-v-daedd2133f90" />
         </Wrap>
         <Wrap>
-          <img src="https://lh3.googleusercontent.com/BKZ9j1cgzXqbCCYPcRjw2eHEw2t5291lxXxXB6wE7BBD18Tgv8Vhzc5Y8hl609GfZ7VShv6uAWCndxiFO7gLR1B8BLp7vnzZV4Ji3KCr" />
+          <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_256/sources/r1/cms/prod/6666/1126666-v-daedd2133f90" />
         </Wrap>
         <Wrap>
-          <img src="https://lh3.googleusercontent.com/BKZ9j1cgzXqbCCYPcRjw2eHEw2t5291lxXxXB6wE7BBD18Tgv8Vhzc5Y8hl609GfZ7VShv6uAWCndxiFO7gLR1B8BLp7vnzZV4Ji3KCr" />
+          <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_256/sources/r1/cms/prod/6666/1126666-v-daedd2133f90" />
         </Wrap>
         <Wrap>
-          <img src="https://lh3.googleusercontent.com/BKZ9j1cgzXqbCCYPcRjw2eHEw2t5291lxXxXB6wE7BBD18Tgv8Vhzc5Y8hl609GfZ7VShv6uAWCndxiFO7gLR1B8BLp7vnzZV4Ji3KCr" />
+          <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_256/sources/r1/cms/prod/6666/1126666-v-daedd2133f90" />
         </Wrap>
       </Content>
     </Container>
@@ -34,7 +34,7 @@ export default Movies;
 const Container = styled.div``;
 const Content = styled.div`
   display: grid;
-  grid-gap: 25px;
+  grid-gap: 15px;
   grid-template-columns: repeat(4, minmax(0, 1fr));
 `;
 const Wrap = styled.div`
