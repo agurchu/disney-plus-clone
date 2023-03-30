@@ -1,3 +1,8 @@
+:root {
+  /*Border radius*/
+  --radius-01: 8px;
+}
+
 body {
   color: white;
   overflow-x: hidden;
