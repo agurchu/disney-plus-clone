@@ -72,9 +72,10 @@ const Background = styled.div`
   }
 `;
 const ImageTitle = styled.div`
-  height: 30vh;
+  height: auto;
   width: 35vw;
-  min-height: 170px;
+  margin-top: 120px;
+
   min-width: 200px;
 
   img {
@@ -168,4 +169,5 @@ const Description = styled.div`
   margin-bottom: 26px;
   font-size: 16px;
   font-weight: 600;
+  max-width: 450px;
 `;
