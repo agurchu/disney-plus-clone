@@ -7,22 +7,40 @@ function Movies() {
       <h4>Movies Recommended for You</h4>
       <Content>
         <Wrap>
-          <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_256/sources/r1/cms/prod/6666/1126666-v-daedd2133f90" />
+          <img
+            src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_256/sources/r1/cms/prod/6666/1126666-v-daedd2133f90"
+            alt=""
+          />
         </Wrap>
         <Wrap>
-          <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_256/sources/r1/cms/prod/6666/1126666-v-daedd2133f90" />
+          <img
+            src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_256/sources/r1/cms/prod/6666/1126666-v-daedd2133f90"
+            alt=""
+          />
         </Wrap>
         <Wrap>
-          <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_256/sources/r1/cms/prod/6666/1126666-v-daedd2133f90" />
+          <img
+            src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_256/sources/r1/cms/prod/6666/1126666-v-daedd2133f90"
+            alt=""
+          />
         </Wrap>
         <Wrap>
-          <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_256/sources/r1/cms/prod/6666/1126666-v-daedd2133f90" />
+          <img
+            src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_256/sources/r1/cms/prod/6666/1126666-v-daedd2133f90"
+            alt=""
+          />
         </Wrap>
         <Wrap>
-          <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_256/sources/r1/cms/prod/6666/1126666-v-daedd2133f90" />
+          <img
+            src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_256/sources/r1/cms/prod/6666/1126666-v-daedd2133f90"
+            alt=""
+          />
         </Wrap>
         <Wrap>
-          <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_256/sources/r1/cms/prod/6666/1126666-v-daedd2133f90" />
+          <img
+            src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_256/sources/r1/cms/prod/6666/1126666-v-daedd2133f90"
+            alt=""
+          />
         </Wrap>
       </Content>
     </Container>

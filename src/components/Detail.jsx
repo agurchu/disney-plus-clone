@@ -5,10 +5,16 @@ function Detail() {
   return (
     <Container>
       <Background>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto/sources/r1/cms/prod/3064/1413064-i-585c2e207609" />
+        <img
+          src="https://img1.hotstarext.com/image/upload/f_auto/sources/r1/cms/prod/3064/1413064-i-585c2e207609"
+          alt=""
+        />
       </Background>
       <ImageTitle>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,h_136/sources/r1/cms/prod/8966/1478966-t-7d9de66aea5e" />
+        <img
+          src="https://img1.hotstarext.com/image/upload/f_auto,h_136/sources/r1/cms/prod/8966/1478966-t-7d9de66aea5e"
+          alt=""
+        />
       </ImageTitle>
 
       <SubTitle>
