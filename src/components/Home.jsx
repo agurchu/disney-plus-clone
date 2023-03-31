@@ -1,10 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import ImgSlider from "./ImgSlider";
 import Movies from "./Movies";
 import Viewers from "./Viewers";
+import { collection, onSnapshot } from "firebase/firestore";
+import db from "../firebase"; // import your Firebase configuration object
+
+// const db = getFirestore(); // get a Firestore instance
+// const moviesRef = collection(db, "movies");
+// onSnapshot(moviesRef, (snapshot) => {
+//   let tempMovies = snapshot.docs.map((doc) => {
+//     return { id: doc, ...doc.data() };
+//   });
+//   console.log(tempMovies);
 
 function Home() {
+  useEffect(() => {
+    const unsubscribe = onSnapshot(collection(db, "movies"), (snapshot) => {
+      console.log(snapshot);
+    });
+    return () => unsubscribe();
+  }, []);
+
   return (
     <Container>
       <ImgSlider />
